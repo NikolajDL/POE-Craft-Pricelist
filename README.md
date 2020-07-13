@@ -62,6 +62,18 @@ Can stream on discord
 Please vouch
 ```
 
+## Command arguments
+
+When running the tool, you have a few commandline arguments at your disposal to do some configuration.
+
+| Argument  	              | Default  	      | Description  	                                                                                                      |
+|---	                      |---	            |---	                                                                                                                |
+| `--help`  	              |                 | Show a description of available commandline arguments.                                                              |
+| `--watch`  	              |                 | Keeps the generator running, watching for changes <br/> to the `.yaml`-file and regenerate whenever the file changes.     |
+| `--filename=sample.yaml`  | sample.yaml     | Configure the path and filename of the `.yaml` configuration file.                                                  |
+| `--output=price-list.txt` | price-list.txt  | Configure the path and filename of the generated output file.                                                       |
+
+
 ## Crafts and Configuration
 
 Once you're set up and have verified that it's working, you're ready to configure your own prices and crafts.
