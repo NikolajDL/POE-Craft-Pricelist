@@ -20,8 +20,8 @@ crafting_stations:
   primal:
     - crafts:
       - remove_add_defence
-      - aug_defence
-      - aug_defence
+      - aug_defence_lucky
+      - aug_defence_lucky
   vivid:
     - crafts:
       - remove_life
