@@ -9,7 +9,7 @@ const DEFAULT_OPTIONS = {
     maxShownPrice: Number.MAX_SAFE_INTEGER,
     discount: 0,
     exaltedToChaos: 160,
-    wrapMarkupCode: true,
+    wrapMarkdownCode: true,
 };
 
 export default class Generator {
@@ -32,7 +32,7 @@ export default class Generator {
 
         priceList += this.generateFooter(data.footer);
 
-        if (this.options.wrapMarkupCode) {
+        if (this.options.wrapMarkdownCode) {
             priceList = '```\n' + priceList + '\n```';
         }
 
