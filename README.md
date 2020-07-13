@@ -241,4 +241,4 @@ Big thank you to the community behind [The Forbidden Trove](https://forbiddentro
 
 While this project was primarily meant for myself, as a product of my hatret for manual tasks, I would much appreciate any donations from people who find this useful. 
 
-I'm currently playing Harvest Standard and my IGN is `Elrdar` and any ingame donation is cherished. 
+I'm currently playing Harvest Standard and my IGN is `Elrdar`. Any ingame donation is cherished. 
