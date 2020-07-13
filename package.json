@@ -1,0 +1,17 @@
+{
+  "name": "poe-craft-pricelist",
+  "version": "1.0.0",
+  "description": "Generates a pricelist of Harvest crafts to be displayed in the TFT Discord channel.",
+  "type": "module",
+  "main": "pricelist-generator.mjs",
+  "scripts": {
+    "start": "node .",
+    "watch": "node . --watch"
+  },
+  "author": "Nikolaj Dam Larsen",
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^1.10.0",
+    "yargs": "^15.4.1"
+  }
+}

@@ -1,0 +1,63 @@
+options: 
+  # discount: 0.2
+  # maxShownPrice: 40
+  # lineWidth: 50
+  # exaltedToChaos: 160
+
+
+header:
+  - '[HSC] WTS'
+  - 'All crafts are tier 76+ if not stated otherwise'
+  - 'IGN: MySampleIngameName'
+
+
+footer:
+  - 'Can stream on discord'
+  - 'Please vouch'
+
+
+crafting_stations:
+  primal:
+    - crafts:
+      - remove_add_defence
+      - aug_defence
+      - aug_defence
+  vivid:
+    - crafts:
+      - remove_life
+      - remove_life
+      - remove_life
+    - crafts:
+      - aug_fire_lucky
+      - remove_cold
+  stash:
+    - crafts:
+      - socket_non_blue_blue
+
+
+categories:
+  - label: Augment
+    crafts:
+      aug_fire_lucky:
+        name: Augment Fire Lucky
+        price: 50c
+      aug_defence_lucky:
+        name: Augment Defence Lucky
+        price: 50c
+
+
+  - label: Remove
+    crafts:
+      remove_cold:
+        name: Remove Cold
+        price: 30c
+      remove_life:
+        name: Remove Life
+        price: 40c
+  
+
+  - label: Sockets
+    crafts:
+      socket_non_blue_blue:
+        name: Non-Blue -> Blue
+        price: 30c
